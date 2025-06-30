@@ -12,8 +12,7 @@
     wideAnimationRotation: -60
     damage:
       types:
-        Slash: 19.5
-        Shock: 6.5
+        Slash: 20
         Structural: 55
   - type: Item
     sprite: _Mono/Objects/Weapons/Melee/murasama.rsi
@@ -24,7 +23,7 @@
     - Belt
     - suitStorage
   - type: Reflect
-    reflectProb: 0.40
+    reflectProb: 0.20
   - type: DisarmMalus
     malus: 0.9
   - type: StaticPrice

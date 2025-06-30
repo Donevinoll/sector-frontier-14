@@ -70,7 +70,7 @@
       - state: inhand-right-blade
         shader: unshaded
   - type: Reflect
-    reflectProb: .10
+    reflectProb: 0.20
     spread: 10
   - type: IgnitionSource
     temperature: 700
