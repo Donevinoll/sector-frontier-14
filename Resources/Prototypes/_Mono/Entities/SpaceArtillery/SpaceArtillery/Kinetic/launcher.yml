@@ -267,7 +267,7 @@
   - type: StaticPrice
     price: 2000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/entropy.rsi
+    sprite: _Mono/Objects/ShuttleWeapons/fang.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -478,6 +478,7 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
+    processingPowerCost: 6
 
 # HADES 305mm
 

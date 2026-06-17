@@ -430,5 +430,5 @@
   components:
   - type: ProjectileSpread
     proto: ShipDravonProjectile
-    count: 3
+    count: 4
     spread: 8

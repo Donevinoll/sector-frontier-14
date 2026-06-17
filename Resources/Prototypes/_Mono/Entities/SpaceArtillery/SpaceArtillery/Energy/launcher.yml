@@ -207,7 +207,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
-    processingPowerCost: 35
+    processingPowerCost: 16
 
 # Type 2048 scattershot canon
 
