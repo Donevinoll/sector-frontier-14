@@ -262,8 +262,8 @@
   - type: ApcPowerReceiver
     powerLoad: 6500
   - type: Thruster
-    baseThrust: 350
-    thrust: 350
+    baseThrust: 280
+    thrust: 420
     thrustPerPartLevel: [437.5, 525, 612.5, 700, 787.5]
     burnShape: ["-0.3,0.5","0.2,1.6","0.8,1.6","1.3,0.5"]
     damage:
@@ -328,8 +328,8 @@
   - type: ApcPowerReceiver
     powerLoad: 12500
   - type: Thruster
-    baseThrust: 800
-    thrust: 800
+    baseThrust: 560
+    thrust: 420
     thrustPerPartLevel: [1000, 1200, 1400, 1600, 1800]
     burnShape: ["-0.8,1.2","0,2.0","0.8,1.2","1.3,0.5"]
     damage:
