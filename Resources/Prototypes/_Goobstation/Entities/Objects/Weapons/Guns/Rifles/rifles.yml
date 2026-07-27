@@ -107,10 +107,10 @@
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
     availableModes:
-#    - Burst #comment from _Lua
+    - Burst #comment from _Lua
     - FullAuto
     selectedMode: FullAuto #Lua Burst<FullAuto
-    shotsPerBurst: 4 #Lua 5 -> 4
+    shotsPerBurst: 5 
     burstFireRate: 20 # Mono
     burstCooldown: 0.5 # Lua 0.4 -> 0.5
     projectileSpeed: 45

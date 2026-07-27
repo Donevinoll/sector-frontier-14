@@ -15,7 +15,7 @@
       tags:
         - Cartridge762x39mmFMJ
     proto: Cartridge762x39mmFMJ
-    capacity: 25 #Lua 30<25
+    capacity: 30
   - type: Item
     size: Small
   - type: ContainerContainer

@@ -269,22 +269,22 @@
 
 #region weapons
 
-#- type: listing
-#  id: UplinkSecurityAnnieBundle # TCA M27 Annie (7.62x39mm)
-#  name:  uplink-security-AnnieBundle-name
-#  description: uplink-security-AnnieBundle-desc
-#  productEntity: WeaponCaseLongAnnieBundle
-#  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/annie.rsi, state: icon }
-#  cost:
-#    FrontierUplinkCoin: 18
-#  categories:
-#    - UplinkSecurityWeapons
-#  conditions:
-#    - !type:StoreWhitelistCondition
-#      whitelist:
-#        tags:
-#          - SecurityUplink
-
+- type: listing
+  id: UplinkSecurityAnnieBundle # TCA M27 Annie (7.62x39mm)
+  name:  uplink-security-AnnieBundle-name
+  description: uplink-security-AnnieBundle-desc
+  productEntity: WeaponCaseLongAnnieBundle
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/annie.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 7
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+  
 #- type: listing
 #  id: UplinkSecurityVector45ACPBundle # LWC Vector SBR (.45 ACP)
 #  name: uplink-security-vector45acp-name

@@ -53,3 +53,6 @@ uplink-mercenary-coordinates-disk-mercenary-desc = Защищённый диск
 
 uplink-coordinates-disk-nordfall-name = Диск координат Нордфалла
 uplink-coordinates-disk-nordfall-desc = Защищённый диск с навигационными координатами сектора Нордфалл.
+
+uplink-M90-name = М-90
+uplink-M90-desc = Компактная конструкция типа «буллпап». Использует патроны калибра 7,62x51 мм.

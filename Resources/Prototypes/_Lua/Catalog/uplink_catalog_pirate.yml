@@ -497,22 +497,22 @@
 #      tags:
 #      - PirateUplink
 
-#- type: listing
-#  id: UplinkPirateWSPRBundle # WSPR
-#  name: uplink-pirate-WSPRBundle-name
-#  description: uplink-pirate-WSPRBundle-desc
-#  productEntity: WeaponCaseLongWSPRBundle
-#  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/wspr.rsi, state: icon }
-#  cost:
-#    Doubloon: 20 #Lua 15 -> 20
-#  categories:
-#  - UplinkPirateWeapons
-#  conditions:
-#  - !type:StoreWhitelistCondition
-#    whitelist:
-#      tags:
-#      - PirateUplink
-
+- type: listing
+  id: UplinkPirateWSPRBundle # WSPR
+  name: uplink-pirate-WSPRBundle-name
+  description: uplink-pirate-WSPRBundle-desc
+  productEntity: WeaponCaseLongWSPRBundle
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/wspr.rsi, state: icon }
+  cost:
+    Doubloon: 7
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+      
 - type: listing
   id: UplinkPirateHammerBundle # NCI AK-150 HAMMER
   name: uplink-pirate-HammerBundle-name

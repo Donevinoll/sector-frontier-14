@@ -86,6 +86,27 @@
     whitelist:
       tags:
       - NukeOpsUplink
+      - TypanUplink
+
+- type: listing
+  id: UplinkEsworddouble
+  name: uplink-esword-double-name
+  description: uplink-esword-double-desc
+  icon: { sprite: Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  productEntity: EnergySwordDouble
+  cost:
+    Telecrystal: 16
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+      - TypanUplink
 
 - type: listing
   id: UplinkEnergyDagger
@@ -186,7 +207,7 @@
   name: uplink-sniper-bundle-name
   description: uplink-sniper-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
-  productEntity: BriefcaseSyndieSniperBundleFilled
+  productEntity: WeaponCaseLongHristovExpedition
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 6
@@ -273,19 +294,33 @@
 #   - UplinkWeaponry
 
 
-#- type: listing
-#  id: uplinkwspr
-#  name: uplink-wspr-name
-#  description: uplink-wspr-desc
-#  icon: { sprite: /Textures/_Mono/Objects/Weapons/Guns/Rifles/wspr.rsi, state: icon }
-#  productEntity:  ClothingBackpackDuffelSyndicateFilledWSPR
-#  discountCategory: usualDiscounts
-#  discountDownTo:
-#    Telecrystal: 8
-#  cost:
-#    Telecrystal: 12
-#  categories:
-#  - UplinkWeaponry
+- type: listing
+  id: uplinkwspr
+  name: uplink-pirate-WSPRBundle-name
+  description: uplink-pirate-WSPRBundle-desc
+  icon: { sprite: /Textures/_Mono/Objects/Weapons/Guns/Rifles/wspr.rsi, state: icon }
+  productEntity:  WeaponCaseLongWSPRBundle
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 8
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: uplink-M90
+  name: uplink-M90-name
+  description: uplink-M90-desc
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/m90.rsi, state: icon }
+  productEntity:  WeaponCaseLongM90Bundle
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 8
+  cost:
+    Telecrystal: 16
+  categories:
+  - UplinkWeaponry
 
 # Lua ignored
 # Moved by path Prototypes\_Lua\Catalog\uplink_catalog_typan.yml
@@ -704,6 +739,17 @@
   description: uplink-hypopen-desc
   icon: { sprite: /Textures/Objects/Misc/pens.rsi, state: pen }
   productEntity: HypopenBox
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkChemicals
+
+- type: listing
+  id: UplinkAdvancedJetInjectorSC
+  productEntity: AdvancedJetInjectorSC
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
@@ -1825,6 +1871,26 @@
   description: uplink-syndicate-elite-modsuit-desc
   icon: { sprite: /Textures/_Lua/Clothing/Back/Backpacks/pmc.rsi, state: icon }
   productEntity: ClothingmodsuitBloodRedHardsuitElite
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+      - TypanUplink
+    
+- type: listing
+  id: UplinkShieldGenerator
+  name: uplink-security-eshieldgen-name
+  description: uplink-security-eshieldgen-desc
+  icon: { sprite: Clothing/Back/Specific/harmpack.rsi, state: icon }
+  productEntity: ClothingBackpackEnergyShield
   discountCategory: veryRareDiscounts
   discountDownTo:
     Telecrystal: 4

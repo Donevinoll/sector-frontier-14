@@ -833,32 +833,32 @@
   - AmmoBox45_ACPUranium
   - AmmoBox45_magnumUranium
   - AmmoBox68x52mmCaselessUranium
-  ## EMP
-  - AmmoBox23x75mmEMP
-  - AmmoBox556x45mmEMP
-  - AmmoBox635x40mmCaselessEMP
-  - AmmoBox762x39mmEMP
-  - AmmoBox762x51mmEMP
-  - AmmoBox762x54mmREMP
-  - AmmoBox8x65mmSKREMP
-  - AmmoBox9x19mmEMP
-  - AmmoBox127x99mmEMP
-  - AmmoBox45_ACPEMP
-  - AmmoBox45_magnumEMP
-  - AmmoBox68x52mmCaselessEMP
-  ## Caustic
-  - AmmoBox23x75mmCaustic
-  - AmmoBox556x45mmCaustic
-  - AmmoBox635x40mmCaselessCaustic
-  - AmmoBox762x39mmCaustic
-  - AmmoBox762x51mmCaustic
-  - AmmoBox762x54mmRCaustic
-  - AmmoBox8x65mmSKRCaustic
-  - AmmoBox9x19mmCaustic
-  - AmmoBox127x99mmCaustic
-  - AmmoBox45_ACPCaustic
-  - AmmoBox45_magnumCaustic
-  - AmmoBox68x52mmCaselessCaustic
+  ## EMP Comented LuaW
+  #- AmmoBox23x75mmEMP
+  #- AmmoBox556x45mmEMP
+  #- AmmoBox635x40mmCaselessEMP
+  #- AmmoBox762x39mmEMP
+  #- AmmoBox762x51mmEMP
+  #- AmmoBox762x54mmREMP
+  #- AmmoBox8x65mmSKREMP
+  #- AmmoBox9x19mmEMP
+  #- AmmoBox127x99mmEMP
+  #- AmmoBox45_ACPEMP
+  #- AmmoBox45_magnumEMP
+  #- AmmoBox68x52mmCaselessEMP
+  ### Caustic
+  #- AmmoBox23x75mmCaustic
+  #- AmmoBox556x45mmCaustic
+  #- AmmoBox635x40mmCaselessCaustic
+  #- AmmoBox762x39mmCaustic
+  #- AmmoBox762x51mmCaustic
+  #- AmmoBox762x54mmRCaustic
+  #- AmmoBox8x65mmSKRCaustic
+  #- AmmoBox9x19mmCaustic
+  #- AmmoBox127x99mmCaustic
+  #- AmmoBox45_ACPCaustic
+  #- AmmoBox45_magnumCaustic
+  #- AmmoBox68x52mmCaselessCaustic
   ## Utilitary
   - AmmoBox23x75mmFlare
   - AmmoBox23x75mmFlashbang
@@ -964,31 +964,31 @@
   - Magazine45_ACPPistolUranium
   - Magazine45_ACPSubMachineGunUranium
   - Magazine68x52mmCaselessBigUranium
-  ## EMP
-  - Magazine556x45mmEMP
-  - Magazine635x40mmCaselessPistolEMP
-  - Magazine635x40mmCaselessEMP
-  - Magazine762x39mmEMP
-  - Magazine762x51mmEMP
-  - Magazine762x54mmREMP
-  - Magazine8x65mmSKRBoxEMP
-  - Magazine9x19mmPistolEMP
-  - Magazine9x19mmSubMachineGunEMP
-  - Magazine127x99mmEMP
-  - Magazine45_ACPPistolEMP
-  - Magazine45_ACPSubMachineGunEMP
-  - Magazine68x52mmCaselessBigEMP
-  ## Caustic
-  - Magazine556x45mmCaustic
-  - Magazine635x40mmCaselessPistolCaustic
-  - Magazine635x40mmCaselessCaustic
-  - Magazine762x39mmCaustic
-  - Magazine762x51mmCaustic
-  - Magazine762x54mmRCaustic
-  - Magazine8x65mmSKRBoxCaustic
-  - Magazine9x19mmPistolCaustic
-  - Magazine9x19mmSubMachineGunCaustic
-  - Magazine127x99mmCaustic
-  - Magazine45_ACPPistolCaustic
-  - Magazine45_ACPSubMachineGunCaustic
-  - Magazine68x52mmCaselessBigCaustic
+ # ## EMP
+ # - Magazine556x45mmEMP
+ # - Magazine635x40mmCaselessPistolEMP
+ # - Magazine635x40mmCaselessEMP
+ # - Magazine762x39mmEMP
+ # - Magazine762x51mmEMP
+ # - Magazine762x54mmREMP
+ # - Magazine8x65mmSKRBoxEMP
+ # - Magazine9x19mmPistolEMP
+ # - Magazine9x19mmSubMachineGunEMP
+ # - Magazine127x99mmEMP
+ # - Magazine45_ACPPistolEMP
+ # - Magazine45_ACPSubMachineGunEMP
+ # - Magazine68x52mmCaselessBigEMP
+ # ## Caustic
+ # - Magazine556x45mmCaustic
+ # - Magazine635x40mmCaselessPistolCaustic
+ # - Magazine635x40mmCaselessCaustic
+ # - Magazine762x39mmCaustic
+ # - Magazine762x51mmCaustic
+ # - Magazine762x54mmRCaustic
+ # - Magazine8x65mmSKRBoxCaustic
+ # - Magazine9x19mmPistolCaustic
+ # - Magazine9x19mmSubMachineGunCaustic
+ # - Magazine127x99mmCaustic
+ # - Magazine45_ACPPistolCaustic
+ # - Magazine45_ACPSubMachineGunCaustic
+ # - Magazine68x52mmCaselessBigCaustic

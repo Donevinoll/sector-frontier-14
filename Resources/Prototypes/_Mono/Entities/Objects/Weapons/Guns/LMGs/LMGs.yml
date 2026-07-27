@@ -300,9 +300,10 @@
           - Magazine68x52mmCaseless
           - Magazine556x45mmFMJ
           - Magazine556x45mmBox
-#          - Magazine762x39mmFMJ # comment (270-272) from _Lua
+          - ADTExtMagazineRifle 
+          - Magazine762x39mmFMJ # comment (270-272) from _Lua
 #          - Magazine762x39mmLowCapacityFMJ
-#          - Magazine762x39mmBox
+          - Magazine762x39mmBox
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -373,7 +374,7 @@
     maxAngle: 15 #Lua
     angleIncrease: 1.3 #Lua
     angleDecay: 4.7 #Lua
-    fireRate: 5.83 # Lua 5.7<5.83
+    fireRate: 7 # Lua 5.7<5.83
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
