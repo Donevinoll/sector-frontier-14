@@ -109,8 +109,8 @@
     availableModes:
     - Burst #comment from _Lua
     - FullAuto
-    selectedMode: FullAuto #Lua Burst<FullAuto
-    shotsPerBurst: 5 
+    selectedMode: Burst
+    shotsPerBurst: 3
     burstFireRate: 20 # Mono
     burstCooldown: 0.5 # Lua 0.4 -> 0.5
     projectileSpeed: 45
